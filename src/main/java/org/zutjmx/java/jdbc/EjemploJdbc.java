@@ -22,11 +22,11 @@ public class EjemploJdbc {
 
         System.out.println(":::: Se prueba el método guardar() ::::");
         Categoria categoria = new Categoria();
-        categoria.setId(2L);
-        categoria.setNombre("Tecnología");
+        categoria.setId(6L);
+        categoria.setNombre("Libros");
         Producto nuevoProducto = new Producto();
-        nuevoProducto.setNombre("Laptop Dell Vostro-3500");
-        nuevoProducto.setPrecio(8000);
+        nuevoProducto.setNombre("La llegada de los gatos cuánticos");
+        nuevoProducto.setPrecio(140);
         nuevoProducto.setFechaCreacion(new Date());
         nuevoProducto.setCategoria(categoria);
         repositorio.guardar(nuevoProducto);

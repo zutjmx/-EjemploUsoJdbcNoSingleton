@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="curso-jakarta-ee9-jdbc-close" />
         <module name="java_jdbc" />
+        <module name="EjemploUsoJdbcNoSingleton" />
       </profile>
     </annotationProcessing>
   </component>
